@@ -60,13 +60,13 @@ header h1 {
 	
 	margin: 0;
 	padding: 38px 0;
+	border-bottom: 3px solid #77a466;
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	
 	padding: 46px 0;
 }
 header nav ul {
