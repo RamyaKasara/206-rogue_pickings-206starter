@@ -54,6 +54,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	width: 100%;
 }
 
 header h1 {
@@ -69,11 +70,12 @@ header h1 span {
 header nav {
 	padding: 46px 0;
 }
+
 header nav ul {
 	margin: 0;
 	padding: 0;
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 
 }
 header nav ul li {
@@ -81,11 +83,14 @@ header nav ul li {
 	font-weight: 700;
 	font-size: 0.875em;
 	padding: 10px 10px;
-	display: inline;
+	/*display: inline;*/
+	display: block;
+	text-align: center;
 }
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+	
 }
 
 /*The widths are in a percentage!*/
@@ -192,20 +197,30 @@ footer span {
     /* Tablet styles here */
 
 	.bottom-section{
-		border-top: 1px solid #eee;
+		display: flex;
+		justify-content: center;
+		flex-flow: row nowrap;
+		align-items: stretch;
+		padding-bottom: 5%;
+	
 	}
 
 	.section-one{
-
+		padding: 0 0;
 	}
 
 	.section-two{
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+		padding: 0 4%;
 
 	}
 
 	.section-three{
-
+		padding: 0 4%;
 	}
+
+	
  
 }
  
