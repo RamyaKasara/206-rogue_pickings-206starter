@@ -48,7 +48,7 @@ p {
 /*The widths are in a percentage!*/
 header {
 	
-	border-bottom: 3px solid #77a466;
+	border-bottom: 3px solid #77a466; /*border above image*/
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -61,6 +61,8 @@ header h1 {
 	
 	margin: 0;
 	padding: 38px 0;
+	width: 100%; /**/
+	text-align: center;
 	border-bottom: 3px solid #77a466;
 }
 header h1 span {
@@ -227,4 +229,22 @@ footer span {
 @media all and (min-width:1200px) {
     /* Desktop styles here */
  
+
+	header{
+		display: flex;
+		flex-flow: row nowrap;
+
+	}
+	header h1{
+		width: 50% ;
+    	padding:0px ;
+    	border-bottom: none ;
+    	text-align: left;
+		padding: 38px 0;
+	}
+
+	header nav ul li{
+		display: inline;
+
+	}
 }
